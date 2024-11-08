@@ -1,0 +1,151 @@
+/* General button styling */
+button {
+  width: 90px;  /* Set width of the button */
+  height: 40px; /* Set height of the button */
+  font-size: 16px; /* Set font size for text inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Styling for basic button */
+.basic-button {
+  background-color: white; /* Background color */
+  color: black; /* Text color */
+}
+
+/* Basic button active state */
+.basic-button:active {
+  border: 1px solid black; /* Border on click */
+  border-radius: 10px; /* Keep rounded corners */
+}
+
+/* Styling for primary button */
+.primary-button {
+  background-color: rgb(0, 139, 253); /* Blue background */
+  color: white; /* White text */
+}
+
+/* Hover state for primary button */
+.primary-button:hover {
+  background-color: rgb(1, 97, 175); /* Darker blue on hover */
+}
+
+/* Active state for primary button */
+.primary-button:active {
+  background-color: rgb(0, 49, 88); /* Dark blue on click */
+}
+
+/* Styling for secondary button */
+.secondary-button {
+  background-color: grey; /* Grey background */
+  color: white; /* White text */
+}
+
+/* Hover state for secondary button */
+.secondary-button:hover {
+  background-color: rgb(94, 94, 94); /* Slightly darker grey */
+}
+
+/* Active state for secondary button */
+.secondary-button:active {
+  background-color: rgb(56, 56, 56); /* Even darker grey */
+}
+
+/* Styling for success button */
+.success-button {
+  background-color: green; /* Green background */
+  color: white; /* White text */
+}
+
+/* Hover state for success button */
+.success-button:hover {
+  background-color: rgb(0, 80, 0); /* Darker green on hover */
+}
+
+/* Active state for success button */
+.success-button:active {
+  background-color: rgb(0, 59, 0); /* Even darker green on click */
+}
+
+/* Styling for info button */
+.info-button {
+  background-color: aqua; /* Aqua background */
+  color: black; /* Black text */
+}
+
+/* Hover state for info button */
+.info-button:hover {
+  background-color: rgb(0, 184, 184); /* Darker aqua on hover */
+}
+
+/* Active state for info button */
+.info-button:active {
+  background-color: rgb(0, 119, 119); /* Even darker aqua on click */
+}
+
+/* Styling for warning button */
+.warning-button {
+  background-color: orange; /* Orange background */
+  color: black; /* Black text */
+}
+
+/* Hover state for warning button */
+.warning-button:hover {
+  background-color: rgb(221, 144, 1); /* Darker orange on hover */
+}
+
+/* Active state for warning button */
+.warning-button:active {
+  background-color: rgb(173, 113, 0); /* Even darker orange on click */
+}
+
+/* Styling for danger button */
+.danger-button {
+  background-color: red; /* Red background */
+  color: white; /* White text */
+}
+
+/* Hover state for danger button */
+.danger-button:hover {
+  background-color: rgb(196, 0, 0); /* Darker red on hover */
+}
+
+/* Active state for danger button */
+.danger-button:active {
+  background-color: rgb(161, 1, 1); /* Even darker red on click */
+}
+
+/* Styling for dark button */
+.dark-button {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+}
+
+/* Hover state for dark button */
+.dark-button:hover {
+  opacity: 0.8; /* Slightly transparent on hover */
+}
+
+/* Active state for dark button */
+.dark-button:active {
+  opacity: 0.6; /* More transparent on click */
+}
+
+/* Styling for light button */
+.light-button {
+  background-color: white; /* White background */
+  color: black; /* Black text */
+}
+
+/* Hover state for light button */
+.light-button:hover {
+  background-color: antiquewhite; /* Slightly off-white on hover */
+}
+
+/* Styling for link button */
+.link-button {
+  background-color: white; /* White background */
+  color: rgb(0, 139, 253); /* Blue text */
+  text-decoration: underline; /* Underlined text */
+}
